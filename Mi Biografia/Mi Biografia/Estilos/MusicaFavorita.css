@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: url('../Imagenes/Fondo3.jpg') no-repeat;
+    background-size: cover; 
+}
+nav{
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: rgba(10, 10, 8, 0.9);
+    padding: 32px;  
+}
+#tituloprincipal{
+    color: white;
+    font-size: 40px;
+}
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.opcion{
+    color: white;
+    text-decoration: none;
+    font-size: 20px; 
+}
+.opcion:hover{
+    background: rgb(77, 73, 73);
+    border-radius: 30px;
+    padding: 10px; 
+    transition: all .5s;
+}
+#seccion{
+    width: 1000px;
+    margin-top: 7%;
+    padding: 40px;
+    color: white;
+    border-radius: 30px;
+    margin-left: 29%;
+    font-size: 22px;
+}
+#articulo1{
+    background: rgba(0, 0, 0, .4);
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 45px;
+    border: rgb(77, 73, 73) 3px solid;
+}
+#articulo2{
+    background: rgba(0, 0, 0, .4);
+    border-radius: 30px;
+    margin-top: 45px;
+    padding: 20px;
+    border: rgb(77, 73, 73) 3px solid;
+}
+#articulo3{
+    background: rgba(0, 0, 0, .4);
+    border-radius: 30px;
+    margin-top: 45px;
+    padding: 20px;
+    border: rgb(77, 73, 73) 3px solid;
+}
+.titulo{
+    font-size: 50px;
+    text-align: center;
+}
+#parrafo1{
+    margin-top: 40px;
+    text-align: justify;
+
+}
+
+.musica{
+    border-radius: 30px;
+    margin-top: 5%;
+}
+.barralateral{
+    width: 360px;
+    background: rgba(0, 0, 0, .4);
+    margin-top: -154%;
+    padding: 40px;
+    color: white;
+    border-radius: 30px;
+    margin-left: 4%;
+    font-size: 22px;
+    border: rgb(77, 73, 73) 3px solid;
+
+}
+#titulolateral{
+    font-size: 38px;
+    text-align: center;
+    background: rgb(77, 73, 73);
+    border-radius: 30px;
+    padding: 10px;
+}
+.subtitulolateral{
+    font-size: 35px;
+    margin-top: 22%;
+    text-align: center;
+}
+.plateral{
+    margin-top: 15%;
+}
+.ir{
+    background: rgb(77, 73, 73);
+    text-align: center;
+    display: block;
+    margin-top: 10%;
+    border-radius: 30px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+footer{
+    background-color:#17181C;
+    padding: 30px;
+    margin-top: 65%;
+}
+.mensaje{
+    margin-top: -5px;
+    font-size: 30px;
+    color: white;
+}
+.redes{
+    margin-top: 45px;
+}
+.facebook{
+    width: 65px;
+    margin-top: 2%;
+}
+.messenger{
+    width: 65px;
+    margin-top: 1%;
+}
+.whatsapp{
+    width: 66px;
+    margin-top: 2%;
+}
+.youtube{
+    width: 65px;
+    margin-top: 2%;
+}
+.twitter{
+    width: 65px;
+    margin-top: 2%;
+}
+.gmail{
+    width: 67px;
+    margin-top: 1%;
+}
+.autor{
+    color: white;
+    margin-top: -35px;
+}
